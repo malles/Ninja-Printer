@@ -1,0 +1,10 @@
+{
+  "name": "nl.devosdiensten.chrome.printer.ninja",
+  "description": "De Vos Diensten Chrome Extensie voor printen",
+  "path": "HOST_PATH",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://pgopajbabpfaejfbodlffpojjcnmhjea/",
+    "chrome-extension://fnacfbhdnejbjiglnlfgeaaifcmmmncb/"
+  ]
+}

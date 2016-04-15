@@ -1,8 +1,8 @@
 {
-    "name": "Ninja Printer",
-    "version": "1.0.4",
+    "name": "De Vos Printer",
+    "version": "0.9.0",
     "manifest_version": 2,
-    "description": "Westwing Printing solution",
+    "description": "De Vos Diensten Chrome Extensie voor printen",
     "background": {
         "scripts": [
             "main.js"
@@ -12,12 +12,9 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.west-wing.ws/*",
-                "*://*.westwing.es/*",
-                "*://*.westwing.fr/*",
-                "*://*.westwing.pl/*",
-                "*://*.westwing.de/*",
-                "*://*.westwing.eu/*",
+                "*://*.devosdiensten.nl/*",
+                "*://*.devos.dev/*",
+                "*://devos.groundctrl.nl//*",
                 "*://127.0.0.1/*",
                 "*://localhost/*"
             ],
@@ -31,17 +28,14 @@
         "NinjaPrinter.js"
     ],
     "icons": {
-        "128": "ninja-128.png"
+        "128": "vos-128.png"
     },
     "permissions": [
         "nativeMessaging",
         "tabs",
-        "*://*.west-wing.ws/*",
-        "*://*.westwing.es/*",
-        "*://*.westwing.fr/*",
-        "*://*.westwing.pl/*",
-        "*://*.westwing.de/*",
-        "*://*.westwing.eu/*",
+        "*://*.devosdiensten.nl/*",
+        "*://*.devos.dev/*",
+        "*://devos.groundctrl.nl//*",
         "*://127.0.0.1/*",
         "*://localhost/*"
     ]

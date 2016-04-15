@@ -14,7 +14,7 @@
             "matches": [
                 "*://*.devosdiensten.nl/*",
                 "*://*.devos.dev/*",
-                "*://devos.groundctrl.nl//*",
+                "*://devos.groundctrl.nl/*",
                 "*://127.0.0.1/*",
                 "*://localhost/*"
             ],

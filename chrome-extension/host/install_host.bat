@@ -4,4 +4,4 @@
 
 :: Change HKCU to HKLM if you want to install globally.
 :: %~dp0 is the directory containing this bat script and ends with a backslash.
-REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\nl.devosdiensten.chrome.printer.ninja" /ve /t REG_SZ /d "%~dp0nl.devosdiensten.chrome.printer.ninja-win.json" /f
+REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\de.westwing.chrome.printer.ninja" /ve /t REG_SZ /d "%~dp0de.westwing.chrome.printer.ninja-win.json" /f

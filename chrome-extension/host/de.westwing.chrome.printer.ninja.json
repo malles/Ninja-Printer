@@ -1,5 +1,5 @@
 {
-  "name": "nl.devosdiensten.chrome.printer.ninja",
+  "name": "de.westwing.chrome.printer.ninja",
   "description": "De Vos Diensten Chrome Extensie voor printen",
   "path": "HOST_PATH",
   "type": "stdio",

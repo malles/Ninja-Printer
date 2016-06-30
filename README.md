@@ -126,3 +126,10 @@ For some minimalist usage examples, please check out the contents of the example
 some webserver to make the example page available as `localhost` or `127.0.0.1`. Otherwise the content script will not
 be injected. For example with php it's just `php -S localhost:8080`.
 
+TL;DR
+
+- download this repo to userfoilder
+- https://chrome.google.com/webstore/detail/de-vos-printer/kcfkeejpblhgomahkojbdeififfmhehg
+- ID via settings-ontw.modus
+- add ID to chrome-extension/host/de.westwing.chrome.printer.ninja-win.json
+- run install_host.bat
